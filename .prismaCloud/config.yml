@@ -6,9 +6,9 @@ template_type: CFT
 # If template_type value is CFT, setcft_parameters (optional)
 # variable_values is an array of name/value pairs, which identifies the
 # template variables
-     cft_parameters:
-     variable_values:
-     - name:KeyName
-     value: 10
-     - name: AMI
-     value: ami-45785
+#     cft_parameters:
+#     variable_values:
+#     - name:KeyName
+#     value: 10
+#    - name: AMI
+#    value: ami-45785
