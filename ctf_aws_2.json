@@ -13,7 +13,7 @@
         "AccessControl": { "Ref" : "AccessControlFile" },
         "LoggingConfiguration": true,
         "VersioningConfiguration": {
-          "Status": "Suspended"
+          "Status": "Enabled"
         },
         "BucketEncryption": {
           "ServerSideEncryptionConfiguration": [
