@@ -13,13 +13,13 @@
         "AccessControl": { "Ref" : "AccessControlFile" },
         "LoggingConfiguration": true,
         "VersioningConfiguration": {
-          "Status": "Suspended"
+          "Status": "Enabled"
         },
         "BucketEncryption": {
           "ServerSideEncryptionConfiguration": [
             {
               "ServerSideEncryptionByDefault": {
-                "SSEAlgorithm": true
+                "SSEAlgorithm": AES256
               }
             }
           ]
